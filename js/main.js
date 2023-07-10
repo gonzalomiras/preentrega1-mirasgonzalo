@@ -50,16 +50,16 @@ console.log("-----------------------------------------")
 
 if (vidaHomero <= 0 && vidaHomero >= -10){
     console.log ("Homero permanece internado :/")
-    document.write('Homero está internado :/ <div class="homero"><img src="../img/homeroencoma.webp"></div>')
+    document.write('Homero está internado :/ <div class="homero"><img src="img/homeroencoma.webp"></div>')
     }
 
     else if (vidaHomero <= -11){
         console.log("Homero ha muerto :(")
-        document.write('Homero ha muerto :(<div class="homero"><img src="../img/homeromuerto.webp"></div>')
+        document.write('Homero ha muerto :(<div class="homero"><img src="img/homeromuerto.webp"></div>')
     }   
     else {
         console.log ("Homero se ha recuperado gracias a tí :)")
-        document.write('Homero ha sobrevivido gracias a Tí :) <div class="homero"><img src="../img/Homero.webp"></div>')
+        document.write('Homero ha sobrevivido gracias a Tí :) <div class="homero"><img src="img/Homero.webp"></div>')
     }
 
 
